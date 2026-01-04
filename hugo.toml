@@ -6,3 +6,12 @@ theme = 'PaperMod'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params]
+    mainSections = ["posts"]
+
+[[menu.main]]
+    name = "技术频道"
+    url = "/tech/"  # 对应 content/tech 文件夹
+    weight = 1
+
